@@ -2,10 +2,8 @@ import java.util.*;
 public class OddNumbers {
     public static void main(String[]args){
         String input ="Enter you number to get all the sum of Odd numbers:";
-        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.println(input);
-
         int n = sc.nextInt();
         SumOfOddNumbers(n);
     }
